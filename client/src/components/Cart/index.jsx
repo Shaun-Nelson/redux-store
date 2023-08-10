@@ -12,6 +12,7 @@ import "./style.css";
 const stripePromise = loadStripe("pk_test_TYooMQauvdEDq54NiTphI7jx");
 
 const Cart = () => {
+  // use the react-redux hooks to access and update the global state
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
 

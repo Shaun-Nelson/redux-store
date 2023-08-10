@@ -15,6 +15,7 @@ import { idbPromise } from "../utils/helpers";
 import spinner from "../assets/spinner.gif";
 
 function Detail() {
+  // use the react-redux hooks to access and update the global state
   const state = useSelector((state) => state);
   const dispatch = useDispatch();
   const { id } = useParams();

@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// Get the Provider and store for Redux
 import { Provider } from "react-redux";
 import store from "./utils/store";
 
